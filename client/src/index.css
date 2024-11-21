@@ -9,5 +9,17 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
+
+.walkerDog {
+  margin-top: 20px; 
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.addButton{
+  margin-right: auto;
+}
+
+

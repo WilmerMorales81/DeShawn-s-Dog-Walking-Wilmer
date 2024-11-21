@@ -5,6 +5,8 @@ import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./Home";
+import Walkers from "./Walkers";
+import Cities from "./Cities";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +14,9 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
+        <Route path="/walkers" element={<Walkers />} />
+        <Route path="/cities" element={<Cities />} />
+
       </Route>
     </Routes>
   </BrowserRouter>,

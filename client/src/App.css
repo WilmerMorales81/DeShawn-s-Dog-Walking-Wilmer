@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.list-container {
+  margin: 1rem 1rem 0rem 1rem;
+  padding: 3rem;
+  justify-content: space-between;
+}
+
+.walkerList {
+
+  display:list-item;
+  flex-direction:column;
+
+}
